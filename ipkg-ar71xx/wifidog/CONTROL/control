@@ -1,0 +1,16 @@
+Package: wifidog
+Version: 20090925-1
+Depends: libc, iptables-mod-extra, iptables-mod-ipopt, kmod-ipt-nat, iptables-mod-nat-extra, libpthread, libjson
+Provides: 
+Source: qca/feeds/packages/net/wifidog
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 53969
+Description:  The Wifidog project is a complete and embeddable captive
+ portal solution for wireless community groups or individuals
+ who wish to open a free Hotspot while still preventing abuse
+ of their Internet connection.
